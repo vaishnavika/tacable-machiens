@@ -1,0 +1,29 @@
+body{
+    background-color:greenyellow;
+}
+
+h1{
+ color:blueviolet;
+ text-decoration: underline;
+}
+
+h2{
+    color:red;
+    width:50%;
+    pading:5px;
+}
+
+h4{
+    color:white;
+}
+
+button{
+    font-size:20px;
+    padding:5px;
+    border:1px solid white;
+    border-radius:5px;
+}
+
+img{
+    width:25px;
+}

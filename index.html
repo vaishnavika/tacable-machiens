@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Image recagnition</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+<link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+  <center>
+        <h1 class="bg-success text-uppercase">Face  Recogntion</h1><br>
+  <h2>Model is trained to recognise the following family members:</h2>
+
+  <p class="bg-danger">MUM</p>
+  <br>
+  <p class="bg-danger">ME</p>
+  <br>
+  <p class="bg-danger">BROTHER</p>
+
+  <h3>Webcam veiw</h3>
+  <div id="cam"></div> 
+  <h3>Result</h3>
+  <div id="result"></div>
+  <br>
+  <button class="bg-primary" id="Identify" onclick="identyfy()">Identify</button>
+  <button class="bg-primary" id="Capture" onclick="capture()">Capture</button>
+  <br>
+  <div>Object Name:</div><spam id="object"></spam>
+ <br>
+ <div>Object Accuracy:</div><spam id="accuracy"></spam>
+ 
+ 
+ 
+    </center>
+    <script src="main.js"></script>
+    </body>
+</html>
